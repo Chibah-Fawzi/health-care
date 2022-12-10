@@ -1,0 +1,104 @@
+body {
+    margin: 30px 60px;
+    font-family: "Montserrat", sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a {
+    font-size: 16px;
+    margin: 0 10px;
+}
+nav h1 a{
+    font-size: 35px;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+nav a:first-child{
+    margin-left: 0;
+}
+nav button{
+    background-color: #95D3F6;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+#home-page{
+    display: flex;
+}
+
+#home-page h1{
+    font-size: 60px;
+}
+#home-page p{
+    font-size: 20px;
+    width: 500px;
+}
+
+#btn-container{
+    display: flex;
+}
+#home-page button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: none;
+    font-weight: bolder;
+}
+#filled {
+    background-color: #95D3F6;
+    color: white;
+}
+#empty {
+    background: none;
+    color: #95D3F6;
+    display: flex;
+    align-items: center;
+}
+#empty img{
+    margin-right: 10px;
+}
+#home-content{
+    position: relative;
+}
+
+#apple {
+    position: absolute;
+    right:  0;
+    z-index: -1;
+}
+
+/* SECTION SERVICES */
+
+#services {
+    text-align: center;
+    margin-top: 10vh;
+}
+#boxes{
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.box h3 {
+    text-shadow: 0 0 5px black;
+}
+.box:hover{
+    background-color: #95D3F6;
+    box-shadow: 0 0 20px 1px #95D3F6;
+}
